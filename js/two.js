@@ -35,22 +35,22 @@ $(function(){
     else if(urlMedical == 1)
     {
         $("#back_Ground").html(` <header id="headmedical1"  class="background mb-3">
-            <nav class="   navbar navbar-expand-xl navbar-light bg-light fixed-top>
-                <a class="navbar-brand " style="font-weight: 700; font-size: 40px;" href="#">LOGO </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class=" collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav " style="font-size: 20px;font-weight: 600;">
-                        <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#about">About</a>
-                        <a class="nav-item nav-link" href="#services">Services</a>
-                        <a class="nav-item nav-link " href="#contacts">Contact Us</a>
-                    </div>
-                   
-                </div>
-            </nav>
+        <nav class="  navbar navbar-expand-xl navbar-light bg-light fixed-top" >
+        <a class="navbar-brand " style="font-weight: 700; font-size: 40px;" href="#">LOGO </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav " style="font-size: 20px;font-weight: 600;">
+                <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#services">Services</a>
+                <a class="nav-item nav-link " href="#contacts">Contact Us</a>
+            </div>
+            
+        </div>
+    </nav>
             <img class=" backimg img-fluid" src="imgs/kendal-L4iKccAChOc-unsplash.jpg">
             
             </header>`)}
