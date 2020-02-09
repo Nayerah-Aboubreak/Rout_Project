@@ -1,0 +1,385 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'segoe ui light';
+}
+body
+{
+    background-color: #CCD9D1;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mainbage
+{
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    background-color:#CCD9D1 ;
+    border: solid 3px;
+    border-radius: 6px;
+    padding: 5px;
+    
+    border-color: white;
+}
+.mainbage a
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nB .navbar img
+{
+    width: 8%;
+    border-radius: 50%;
+}
+.nB .navbar .collapse .navbar-nav a
+{
+    color: snow !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* -------- left Side ------- */
+.left .container_left
+{
+    width:50%;
+    position: fixed;
+    z-index: 9999;
+}
+.left .container_left .col-md-8 #list
+{
+    background-color: #023059;
+    display: none;
+    position: relative;
+}
+.left .container_left #list i
+{
+    margin-left: 85%;
+    cursor: pointer;
+}
+.left .container_left #list ul a
+{
+    color: snow !important;
+    font-size: 20px;
+}
+.left .container_left .col-md-8 #list .container
+{
+    display: none;
+}
+.left .container_left .col-md-8 #list .select .col-md-4 img
+{
+    cursor: pointer;
+}
+
+.left .container_left .col-md-4 .open
+{
+    cursor: pointer;
+    position: absolute;
+    top:100;
+    left: 10px;
+    font-size: 25px;
+}
+
+
+/*------ Services -------*/
+#services .container h2
+{
+    text-align: center;
+    font-weight: 600;
+    color: #8C7E7B;
+    font-size: 50px;
+}
+#services .container .line
+{
+    background-color: #023059;
+    width: 10%;
+    height: 2px;
+}
+#services .container #s2
+{
+    display: none;
+}
+#services .container #s3
+{
+    display: none;
+}
+/* ------ Contacts ------*/
+#contacts .container h2
+{
+    text-align: center;
+    font-weight: 600;
+    color: #8C7E7B;
+    font-size: 50px;
+}
+#contacts .container .line
+{
+    background-color: #023059;
+    width: 10%;
+    height: 2px;
+}
+#contacts .container #c2
+{
+    display: none;
+}
+#contacts .container #c3
+{
+    display: none;
+}
+#contacts .container #c3 .form-group label
+{
+    font-weight: 600;
+    font-size: 18px;
+}
+/*about section */
+#about  h2
+{
+    text-align: center;
+    font-weight: 600;
+    color: #8C7E7B;
+    font-size: 50px;
+}
+#about #b2, #about #b1
+{
+    display: none;
+}
+#about  #b3
+{
+    display: none;
+}
+#about .line
+{
+    background-color: #023059;
+    width: 10%;
+    height: 2px;
+}
+.about-box{
+    float: left;
+    width: 100%;
+    }
+    .porfile-photo{
+    float: right;
+    width: 60%; 
+    border-radius: 5px;
+    border: 8px solid #555;
+    transform: translateX(-100px);
+    }
+    .porfile-photo img{
+        border-radius: 5px;
+         width: 100%;
+        display: block;
+        transform: translate(20px,20px);
+    }
+    .intro p:before
+    {
+        content: " ";
+        border:3px solid #555555;
+        margin-right: 20px
+    }
+   
+    #b2 h3{
+        font-weight: 600;
+    }
+    .b3-desc h4{
+        background-color: #8C7E7B;
+        text-align: center;
+        padding:  15px;
+
+    }
+   
+    /*end of about */
+    /*home  section */
+ 
+#home  h2
+{
+    text-align: center;
+    font-weight: 600;
+    color: #8C7E7B;
+    font-size: 50px;
+}
+#home #h2, #home #h1
+{
+    display: none;
+}
+#home  #h3
+{
+    display: none;
+}
+#home .line
+{
+    background-color: #023059;
+    width: 10%;
+    height: 2px;
+}
+   
+    #h2 h3{
+        font-weight: 600;
+    }
+   
+   
+    /*end of home */
+
+    /*footer */
+    .footer-area .contain{
+        background-color: #2E84A6;
+        color: #fff;
+    }
+    
+    .footer
+    
+    {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    
+    
+    }
+    .footer a {
+        color: #023059;
+         text-decoration: none;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .footer a:hover {
+         text-decoration: underline;
+    }
+    
+    .r{
+    
+    width: 20%;
+    overflow: auto;
+    margin: auto;
+   
+        }
+    
+    .social-icon i:hover
+    {
+        color:#8C7E7B;  
+    }
+    .social-icon i{
+    float: left;
+    width: 25%;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    }
+    .social-icon ul
+    { 
+    
+     list-style: none;
+    } 
+    /*end footer*/
+/*start of the templates container---------------------------------------------------------------------------------*/
+
+#medical,
+#business,
+#beauty {
+    display: none;
+}
+#thems
+{
+margin-bottom: 200px;
+
+}
+.mainbage
+{
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    background-color:#ccd9d1;
+    width: 15%;
+    
+}
+
+.mainbage a
+{
+ text-decoration: none;
+ color: white;
+    
+}
+.subjecttype h4{
+
+    font-size: 30px;
+    margin-top: 100px;
+}
+.medTemp {
+    position: relative;
+}
+
+.navBosition {
+    position: absolute;
+    top: 20px;
+}
+
+img {
+    transition: 1s transform ;
+   
+}
+
+.project_item:hover img {
+    transform: scale(1.1, 1.1);
+   
+}
+
+.icon_header {
+    cursor: pointer;
+}
+
+
+/* regestration-----------------------------------------------------------------*/
+
+/*regestration------------------------------*/
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+.frist
+{
+    background-color: 142850;
+}
+.signUp
+{
+    width: 40%;
+}
+.login
+{
+    width: 40%;
+    margin-top: 4%;
+}
+
+.borderdiv
+{
+    border-left: solid 2px;
+}
+.linkIcon >a
+{
+font-size: 50px;
+cursor: pointer;
+}
+
+.forgot
+{
+cursor: pointer;
+}
+
+@media(max-width:1000px){
+
+    .signUp
+    {
+        width: 90%;
+    }
+
+    .borderdiv
+    {
+border: none;
+    }
+    .login
+{
+    width: 90%;
+    margin-top: -10%;
+    margin-left: 15px;
+}
+}
