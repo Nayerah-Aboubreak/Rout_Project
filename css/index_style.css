@@ -286,16 +286,13 @@ body
 #beauty {
     display: none;
 }
-#thems
-{
-margin-bottom: 200px;
 
-}
 .mainbage
 {
     position: fixed;
-    top: 200px;
+    top: 220px;
     right: 0px;
+    z-index: 999;
     background-color:#ccd9d1;
     width: 15%;
     
